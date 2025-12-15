@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 class CountryAttackSimulator:
+    """Симулятор"""
     def __init__(self):
-        
         self.base_costs = {
             'Энергоколлапс': 80,
             'Финансовая паника': 120,
